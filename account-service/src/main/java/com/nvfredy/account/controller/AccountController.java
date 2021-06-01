@@ -2,7 +2,6 @@ package com.nvfredy.account.controller;
 
 import com.nvfredy.account.dto.AccountRequestDto;
 import com.nvfredy.account.dto.AccountResponseDto;
-import com.nvfredy.account.entity.Account;
 import com.nvfredy.account.service.AccountService;
 import org.springframework.web.bind.annotation.*;
 

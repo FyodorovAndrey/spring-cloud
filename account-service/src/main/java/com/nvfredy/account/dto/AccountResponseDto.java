@@ -1,13 +1,11 @@
 package com.nvfredy.account.dto;
 
 import com.nvfredy.account.entity.Account;
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 import java.time.OffsetDateTime;
 
 @Getter
-@AllArgsConstructor
 public class AccountResponseDto {
 
     private Long accountId;
