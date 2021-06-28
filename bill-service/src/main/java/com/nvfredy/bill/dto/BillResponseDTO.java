@@ -7,7 +7,7 @@ import java.math.BigDecimal;
 import java.time.OffsetDateTime;
 
 @Getter
-public class BillResponseDto {
+public class BillResponseDTO {
 
     private Long billId;
     private Long accountId;
@@ -16,7 +16,7 @@ public class BillResponseDto {
     private OffsetDateTime creationDate;
     private Boolean overdraftEnabled;
 
-    public BillResponseDto(Bill bill) {
+    public BillResponseDTO(Bill bill) {
         billId = bill.getBillId();
         accountId = bill.getAccountId();
         amount = bill.getAmount();

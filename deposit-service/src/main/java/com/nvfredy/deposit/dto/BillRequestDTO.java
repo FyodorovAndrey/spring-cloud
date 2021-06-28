@@ -1,14 +1,16 @@
-package com.nvfredy.bill.dto;
+package com.nvfredy.deposit.dto;
 
-import lombok.Getter;
+import lombok.Data;
 
 import java.math.BigDecimal;
+import java.time.OffsetDateTime;
 
-@Getter
-public class BillRequestDto {
+@Data
+public class BillRequestDTO {
 
     private Long accountId;
     private BigDecimal amount;
     private Boolean isDefault;
     private Boolean overdraftEnabled;
+    private OffsetDateTime creationDate;
 }
