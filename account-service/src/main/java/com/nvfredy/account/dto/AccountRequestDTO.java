@@ -5,7 +5,7 @@ import lombok.Getter;
 import java.util.List;
 
 @Getter
-public class AccountRequestDto {
+public class AccountRequestDTO {
 
     private String name;
     private String email;

@@ -6,7 +6,7 @@ import lombok.Getter;
 import java.time.OffsetDateTime;
 
 @Getter
-public class AccountResponseDto {
+public class AccountResponseDTO {
 
     private Long accountId;
     private String name;
@@ -14,7 +14,7 @@ public class AccountResponseDto {
     private String phone;
     private OffsetDateTime creationDate;
 
-    public AccountResponseDto(Account account) {
+    public AccountResponseDTO(Account account) {
         accountId = account.getAccountId();
         name = account.getName();
         email = account.getEmail();
